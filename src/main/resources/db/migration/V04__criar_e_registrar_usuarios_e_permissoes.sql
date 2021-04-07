@@ -19,7 +19,7 @@ CREATE TABLE usuario_permissao (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO usuario (codigo, nome, email, senha) values (1, 'Administrador', 'admin@cirilomoney.com', '$2a$10$hyN0BwAvxkaTXZ0QBA.EmuHcLhUJVVdDwPezLp0XKWvS7qHvrp7MK');
-INSERT INTO usuario (codigo, nome, email, senha) values (2, 'Carlos Cirilo', 'maria@cirilomoney.com', '$2a$10$i3m0rJbLRO1vUWUtthsw8.wscZJB/x6WKO8vILIpnQdqyLs9uoeEW');
+    INSERT INTO usuario (codigo, nome, email, senha) values (2, 'Carlos Cirilo', 'cirilo@cirilomoney.com', '$2a$10$i3m0rJbLRO1vUWUtthsw8.wscZJB/x6WKO8vILIpnQdqyLs9uoeEW');
 
 INSERT INTO permissao (codigo, descricao) values (1, 'ROLE_CADASTRAR_CATEGORIA');
 INSERT INTO permissao (codigo, descricao) values (2, 'ROLE_PESQUISAR_CATEGORIA');
